@@ -1,0 +1,17 @@
+C:\Users\maxon_kb401me\OneDrive\Рабочий стол\Working Storage\Project\MedicationAccounting\Services\bin\Debug\Services.dll.config
+C:\Users\maxon_kb401me\OneDrive\Рабочий стол\Working Storage\Project\MedicationAccounting\Services\bin\Debug\Services.dll
+C:\Users\maxon_kb401me\OneDrive\Рабочий стол\Working Storage\Project\MedicationAccounting\Services\bin\Debug\Services.pdb
+C:\Users\maxon_kb401me\OneDrive\Рабочий стол\Working Storage\Project\MedicationAccounting\Services\bin\Debug\EntityFramework.dll
+C:\Users\maxon_kb401me\OneDrive\Рабочий стол\Working Storage\Project\MedicationAccounting\Services\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\maxon_kb401me\OneDrive\Рабочий стол\Working Storage\Project\MedicationAccounting\Services\bin\Debug\Storage.dll
+C:\Users\maxon_kb401me\OneDrive\Рабочий стол\Working Storage\Project\MedicationAccounting\Services\bin\Debug\Storage.pdb
+C:\Users\maxon_kb401me\OneDrive\Рабочий стол\Working Storage\Project\MedicationAccounting\Services\bin\Debug\Storage.dll.config
+C:\Users\maxon_kb401me\OneDrive\Рабочий стол\Working Storage\Project\MedicationAccounting\Services\bin\Debug\EntityFramework.xml
+C:\Users\maxon_kb401me\OneDrive\Рабочий стол\Working Storage\Project\MedicationAccounting\Services\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\maxon_kb401me\OneDrive\Рабочий стол\Working Storage\Project\MedicationAccounting\Services\bin\Debug\ru\EntityFramework.resources.dll
+C:\Users\maxon_kb401me\OneDrive\Рабочий стол\Working Storage\Project\MedicationAccounting\Services\obj\Debug\Services.csproj.AssemblyReference.cache
+C:\Users\maxon_kb401me\OneDrive\Рабочий стол\Working Storage\Project\MedicationAccounting\Services\obj\Debug\Services.csproj.CoreCompileInputs.cache
+C:\Users\maxon_kb401me\OneDrive\Рабочий стол\Working Storage\Project\MedicationAccounting\Services\obj\Debug\Services.csproj.CopyComplete
+C:\Users\maxon_kb401me\OneDrive\Рабочий стол\Working Storage\Project\MedicationAccounting\Services\obj\Debug\Services.dll
+C:\Users\maxon_kb401me\OneDrive\Рабочий стол\Working Storage\Project\MedicationAccounting\Services\obj\Debug\Services.pdb
+C:\Users\maxon_kb401me\OneDrive\Рабочий стол\Working Storage\Project\MedicationAccounting\Services\bin\Debug\ru\EntityFramework.SqlServer.resources.dll
