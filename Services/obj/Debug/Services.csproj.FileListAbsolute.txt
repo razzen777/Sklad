@@ -15,3 +15,20 @@ C:\Users\maxon_kb401me\OneDrive\Рабочий стол\Working Storage\Project\
 C:\Users\maxon_kb401me\OneDrive\Рабочий стол\Working Storage\Project\MedicationAccounting\Services\obj\Debug\Services.dll
 C:\Users\maxon_kb401me\OneDrive\Рабочий стол\Working Storage\Project\MedicationAccounting\Services\obj\Debug\Services.pdb
 C:\Users\maxon_kb401me\OneDrive\Рабочий стол\Working Storage\Project\MedicationAccounting\Services\bin\Debug\ru\EntityFramework.SqlServer.resources.dll
+C:\Users\zhann\Source\Repos\MedicamentsAccounting\Services\bin\Debug\Services.dll.config
+C:\Users\zhann\Source\Repos\MedicamentsAccounting\Services\bin\Debug\Services.dll
+C:\Users\zhann\Source\Repos\MedicamentsAccounting\Services\bin\Debug\Services.pdb
+C:\Users\zhann\Source\Repos\MedicamentsAccounting\Services\bin\Debug\EntityFramework.dll
+C:\Users\zhann\Source\Repos\MedicamentsAccounting\Services\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\zhann\Source\Repos\MedicamentsAccounting\Services\bin\Debug\Storage.dll
+C:\Users\zhann\Source\Repos\MedicamentsAccounting\Services\bin\Debug\Storage.pdb
+C:\Users\zhann\Source\Repos\MedicamentsAccounting\Services\bin\Debug\Storage.dll.config
+C:\Users\zhann\Source\Repos\MedicamentsAccounting\Services\bin\Debug\EntityFramework.xml
+C:\Users\zhann\Source\Repos\MedicamentsAccounting\Services\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\zhann\Source\Repos\MedicamentsAccounting\Services\bin\Debug\ru\EntityFramework.resources.dll
+C:\Users\zhann\Source\Repos\MedicamentsAccounting\Services\bin\Debug\ru\EntityFramework.SqlServer.resources.dll
+C:\Users\zhann\Source\Repos\MedicamentsAccounting\Services\obj\Debug\Services.csproj.AssemblyReference.cache
+C:\Users\zhann\Source\Repos\MedicamentsAccounting\Services\obj\Debug\Services.csproj.CoreCompileInputs.cache
+C:\Users\zhann\Source\Repos\MedicamentsAccounting\Services\obj\Debug\Services.csproj.CopyComplete
+C:\Users\zhann\Source\Repos\MedicamentsAccounting\Services\obj\Debug\Services.dll
+C:\Users\zhann\Source\Repos\MedicamentsAccounting\Services\obj\Debug\Services.pdb

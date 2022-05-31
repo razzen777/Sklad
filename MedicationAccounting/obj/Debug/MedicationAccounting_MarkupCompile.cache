@@ -4,17 +4,17 @@
 winexe
 C#
 .cs
-C:\Users\maxon_kb401me\OneDrive\Рабочий стол\Working Storage\Project\MedicationAccounting\MedicationAccounting\obj\Debug\
+C:\Users\zhann\source\repos\MedicamentsAccounting\MedicationAccounting\obj\Debug\
 MedicationAccounting
 none
 false
 DEBUG;TRACE
-C:\Users\maxon_kb401me\OneDrive\Рабочий стол\Working Storage\Project\MedicationAccounting\MedicationAccounting\App.xaml
-1219584333
+C:\Users\zhann\source\repos\MedicamentsAccounting\MedicationAccounting\App.xaml
+31344167784
 
-51579654133
-17593489536
-MainWindow.xaml;
+7-1588074110
+17-229790562
+AuthorizationWindow.xaml;MainWindow.xaml;Pages\AddMedicPage.xaml;
 
 False
 

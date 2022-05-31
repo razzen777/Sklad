@@ -5,15 +5,23 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:MedicationAccounting"
         mc:Ignorable="d"
-        Title="Authorisation" Height="225" Width="400">
+        Title="MainWindow" Height="600" Width="950" ResizeMode="NoResize" WindowStartupLocation="CenterScreen">
     <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="100"/>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="50"/>
+        </Grid.RowDefinitions>
         <Grid.ColumnDefinitions>
-            <ColumnDefinition/>
+            <ColumnDefinition Width="180"/>
+            <ColumnDefinition Width="*"/>
         </Grid.ColumnDefinitions>
+        <Image Source="/Image1.png" Stretch="Fill"/>
+        <TextBlock Grid.Column="1" Text="Складской учет медикаментов" VerticalAlignment="Center" HorizontalAlignment="Center" FontFamily="Arial Black" FontWeight="Normal" FontSize="36" FontStyle="Normal"/>
+        <StackPanel Grid.Row="1" HorizontalAlignment="Center" VerticalAlignment="Center">
+            <Button Content="Внести в базу" Width="150" Height="40" Click="AddMedic_Click" />
 
-        <TextBox x:Name="Login" HorizontalAlignment="Left" Margin="139,50,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="127"/>
-        <TextBox x:Name="Password" HorizontalAlignment="Left" Margin="139,91,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="127"/>
-        <Button Content="Button" HorizontalAlignment="Left" Margin="139,136,0,0" VerticalAlignment="Top" Width="127" Click="Login_Click"/>
-
+        </StackPanel>
+        <Frame Name ="MainFrame" Grid.Row="1"  Grid.Column="1"/>
     </Grid>
 </Window>

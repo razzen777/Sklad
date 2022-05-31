@@ -27,3 +27,36 @@ C:\Users\maxon_kb401me\OneDrive\Рабочий стол\Working Storage\Project\
 C:\Users\maxon_kb401me\OneDrive\Рабочий стол\Working Storage\Project\MedicationAccounting\MedicationAccounting\bin\Debug\EntityFramework.SqlServer.dll
 C:\Users\maxon_kb401me\OneDrive\Рабочий стол\Working Storage\Project\MedicationAccounting\MedicationAccounting\bin\Debug\EntityFramework.SqlServer.xml
 C:\Users\maxon_kb401me\OneDrive\Рабочий стол\Working Storage\Project\MedicationAccounting\MedicationAccounting\bin\Debug\ru\EntityFramework.SqlServer.resources.dll
+C:\Users\zhann\Source\Repos\MedicamentsAccounting\MedicationAccounting\bin\Debug\MedicationAccounting.exe.config
+C:\Users\zhann\Source\Repos\MedicamentsAccounting\MedicationAccounting\bin\Debug\MedicationAccounting.exe
+C:\Users\zhann\Source\Repos\MedicamentsAccounting\MedicationAccounting\bin\Debug\MedicationAccounting.pdb
+C:\Users\zhann\Source\Repos\MedicamentsAccounting\MedicationAccounting\bin\Debug\EntityFramework.dll
+C:\Users\zhann\Source\Repos\MedicamentsAccounting\MedicationAccounting\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\zhann\Source\Repos\MedicamentsAccounting\MedicationAccounting\bin\Debug\Services.dll
+C:\Users\zhann\Source\Repos\MedicamentsAccounting\MedicationAccounting\bin\Debug\Storage.dll
+C:\Users\zhann\Source\Repos\MedicamentsAccounting\MedicationAccounting\bin\Debug\Services.pdb
+C:\Users\zhann\Source\Repos\MedicamentsAccounting\MedicationAccounting\bin\Debug\Services.dll.config
+C:\Users\zhann\Source\Repos\MedicamentsAccounting\MedicationAccounting\bin\Debug\EntityFramework.xml
+C:\Users\zhann\Source\Repos\MedicamentsAccounting\MedicationAccounting\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\zhann\Source\Repos\MedicamentsAccounting\MedicationAccounting\bin\Debug\Storage.pdb
+C:\Users\zhann\Source\Repos\MedicamentsAccounting\MedicationAccounting\bin\Debug\Storage.dll.config
+C:\Users\zhann\Source\Repos\MedicamentsAccounting\MedicationAccounting\bin\Debug\ru\EntityFramework.resources.dll
+C:\Users\zhann\Source\Repos\MedicamentsAccounting\MedicationAccounting\bin\Debug\ru\EntityFramework.SqlServer.resources.dll
+C:\Users\zhann\Source\Repos\MedicamentsAccounting\MedicationAccounting\obj\Debug\MedicationAccounting.csproj.AssemblyReference.cache
+C:\Users\zhann\Source\Repos\MedicamentsAccounting\MedicationAccounting\obj\Debug\MedicationAccounting.csproj.SuggestedBindingRedirects.cache
+C:\Users\zhann\Source\Repos\MedicamentsAccounting\MedicationAccounting\obj\Debug\MainWindow.g.cs
+C:\Users\zhann\Source\Repos\MedicamentsAccounting\MedicationAccounting\obj\Debug\App.g.cs
+C:\Users\zhann\Source\Repos\MedicamentsAccounting\MedicationAccounting\obj\Debug\MedicationAccounting_MarkupCompile.cache
+C:\Users\zhann\Source\Repos\MedicamentsAccounting\MedicationAccounting\obj\Debug\MedicationAccounting_MarkupCompile.lref
+C:\Users\zhann\Source\Repos\MedicamentsAccounting\MedicationAccounting\obj\Debug\MainWindow.baml
+C:\Users\zhann\Source\Repos\MedicamentsAccounting\MedicationAccounting\obj\Debug\MedicationAccounting.g.resources
+C:\Users\zhann\Source\Repos\MedicamentsAccounting\MedicationAccounting\obj\Debug\MedicationAccounting.Properties.Resources.resources
+C:\Users\zhann\Source\Repos\MedicamentsAccounting\MedicationAccounting\obj\Debug\MedicationAccounting.csproj.GenerateResource.cache
+C:\Users\zhann\Source\Repos\MedicamentsAccounting\MedicationAccounting\obj\Debug\MedicationAccounting.csproj.CoreCompileInputs.cache
+C:\Users\zhann\Source\Repos\MedicamentsAccounting\MedicationAccounting\obj\Debug\MedicationAccounting.csproj.CopyComplete
+C:\Users\zhann\Source\Repos\MedicamentsAccounting\MedicationAccounting\obj\Debug\MedicationAccounting.exe
+C:\Users\zhann\Source\Repos\MedicamentsAccounting\MedicationAccounting\obj\Debug\MedicationAccounting.pdb
+C:\Users\zhann\source\repos\MedicamentsAccounting\MedicationAccounting\obj\Debug\AuthorizationWindow.g.cs
+C:\Users\zhann\source\repos\MedicamentsAccounting\MedicationAccounting\obj\Debug\AuthorizationWindow.baml
+C:\Users\zhann\source\repos\MedicamentsAccounting\MedicationAccounting\obj\Debug\Pages\AddMedicPage.g.cs
+C:\Users\zhann\source\repos\MedicamentsAccounting\MedicationAccounting\obj\Debug\Pages\AddMedicPage.baml
