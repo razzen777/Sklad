@@ -1,15 +1,30 @@
-﻿<Page x:Class="MedicationAccounting.Pages.AddMedicPage"
+﻿<Page x:Class="MedicationAccounting.Pages.MedicListPage"
       xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
       xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
       xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
       xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
       xmlns:local="clr-namespace:MedicationAccounting.Pages"
       mc:Ignorable="d" 
-      d:DesignHeight="450" d:DesignWidth="800"
+      d:DesignHeight="434" d:DesignWidth="800"
       Title="AddMedicPage">
 
     <Grid>
-        <Button Content="Button" HorizontalAlignment="Left" Margin="244,141,0,0" VerticalAlignment="Top"/>
-
+        <DataGrid AutoGenerateColumns="False">
+            <DataGrid.Columns>
+                <DataGridTextColumn Header="Препарат" Width="120"/>
+                <DataGridTextColumn Header="Категория" Width="120"/>
+                <DataGridTextColumn Header="Цена" Width="90"/>
+                <DataGridTextColumn Header="Количество" Width="80"/>
+                <DataGridTextColumn Header="Сумма" Width="70"/>
+                <DataGridTextColumn Header="Дата добавления" Width="110"/>
+                <DataGridTemplateColumn>
+                    <DataGridTemplateColumn.CellTemplate>
+                        <DataTemplate>
+                            <Button Content="Редактировать" Width="100" Name="btnUpdate" Click="btnUpdate_Click"/>
+                        </DataTemplate>
+                    </DataGridTemplateColumn.CellTemplate>
+                </DataGridTemplateColumn>
+            </DataGrid.Columns>
+        </DataGrid>
     </Grid>
 </Page>

@@ -26,5 +26,7 @@ namespace Storage
         }
     
         public virtual DbSet<Client> Clients { get; set; }
+        public virtual DbSet<Medicament> Medicaments { get; set; }
+        public virtual DbSet<sysdiagrams> sysdiagrams { get; set; }
     }
 }

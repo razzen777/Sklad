@@ -1,4 +1,4 @@
-﻿// Создание кода T4 для модели "C:\Users\zhann\source\repos\MedicamentsAccounting\Storage\DataContext.edmx" включено. 
+﻿// Создание кода T4 для модели "C:\Users\zhann\Source\Repos\Sklad\Storage\DataContext.edmx" включено. 
 // Чтобы включить формирование кода прежних версий, измените значение свойства "Стратегия создания кода" конструктора
 // на "Legacy ObjectContext". Это свойство доступно в окне "Свойства", если модель
 // открыта в конструкторе.

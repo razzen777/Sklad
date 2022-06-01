@@ -16,13 +16,18 @@ using System.Windows.Shapes;
 namespace MedicationAccounting.Pages
 {
     /// <summary>
-    /// Логика взаимодействия для AddMedicPage.xaml
+    /// Логика взаимодействия для MedicListPage.xaml
     /// </summary>
-    public partial class AddMedicPage : Page
+    public partial class MedicListPage : Page
     {
-        public AddMedicPage()
+        public MedicListPage()
         {
             InitializeComponent();
+        }
+
+        private void btnUpdate_Click(object sender, RoutedEventArgs e)
+        {
+
         }
     }
 }

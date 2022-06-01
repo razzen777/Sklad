@@ -5,7 +5,9 @@
     <!-- Diagram content (shape and connector positions) -->
     <edmx:Diagrams>
       <Diagram DiagramId="536932e133b54589a7d4ac798c21f446" Name="Diagram1" >
-        <EntityTypeShape EntityType="MedicationAccountingModel.Client" Width="1.5" PointX="3.625" PointY="1.375" />
+        <EntityTypeShape EntityType="MedicationAccountingModel.Client" Width="1.5" PointX="2.125" PointY="1.625" />
+        <EntityTypeShape EntityType="MedicationAccountingModel.Medicament" Width="1.875" PointX="5.25" PointY="1.875" />
+        <EntityTypeShape EntityType="MedicationAccountingModel.sysdiagrams" Width="1.5" PointX="0.5" PointY="3.375" />
       </Diagram>
     </edmx:Diagrams>
   </edmx:Designer>

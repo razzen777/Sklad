@@ -2,8 +2,8 @@
 -- --------------------------------------------------
 -- Entity Designer DDL Script for SQL Server 2005, 2008, 2012 and Azure
 -- --------------------------------------------------
--- Date Created: 05/30/2022 17:52:21
--- Generated from EDMX file: C:\Users\zhann\source\repos\MedicamentsAccounting\Storage\DataContext.edmx
+-- Date Created: 06/01/2022 20:39:26
+-- Generated from EDMX file: C:\Users\zhann\source\repos\Sklad\Storage\DataContext.edmx
 -- --------------------------------------------------
 
 SET QUOTED_IDENTIFIER OFF;
@@ -25,6 +25,9 @@ GO
 IF OBJECT_ID(N'[dbo].[Clients]', 'U') IS NOT NULL
     DROP TABLE [dbo].[Clients];
 GO
+IF OBJECT_ID(N'[dbo].[Medicaments]', 'U') IS NOT NULL
+    DROP TABLE [dbo].[Medicaments];
+GO
 
 -- --------------------------------------------------
 -- Creating all tables
@@ -38,6 +41,18 @@ CREATE TABLE [dbo].[Clients] (
 );
 GO
 
+-- Creating table 'Medicaments'
+CREATE TABLE [dbo].[Medicaments] (
+    [Id] int IDENTITY(1,1) NOT NULL,
+    [MedicamentName] nvarchar(max)  NOT NULL,
+    [Cost] nvarchar(max)  NOT NULL,
+    [Count] nvarchar(max)  NOT NULL,
+    [Price] nvarchar(max)  NOT NULL,
+    [Date] nvarchar(max)  NOT NULL,
+    [CategoryName] nvarchar(max)  NOT NULL
+);
+GO
+
 -- --------------------------------------------------
 -- Creating all PRIMARY KEY constraints
 -- --------------------------------------------------
@@ -45,6 +60,12 @@ GO
 -- Creating primary key on [Id] in table 'Clients'
 ALTER TABLE [dbo].[Clients]
 ADD CONSTRAINT [PK_Clients]
+    PRIMARY KEY CLUSTERED ([Id] ASC);
+GO
+
+-- Creating primary key on [Id] in table 'Medicaments'
+ALTER TABLE [dbo].[Medicaments]
+ADD CONSTRAINT [PK_Medicaments]
     PRIMARY KEY CLUSTERED ([Id] ASC);
 GO
 
