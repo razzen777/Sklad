@@ -9,14 +9,18 @@
       Title="AddMedicPage">
 
     <Grid>
-        <DataGrid AutoGenerateColumns="False">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="389*"/>
+            <RowDefinition Height="45*"/>
+        </Grid.RowDefinitions>
+        <DataGrid AutoGenerateColumns="False" Name="MedicDataGrid" >
             <DataGrid.Columns>
-                <DataGridTextColumn Header="Препарат" Width="120"/>
-                <DataGridTextColumn Header="Категория" Width="120"/>
-                <DataGridTextColumn Header="Цена" Width="90"/>
-                <DataGridTextColumn Header="Количество" Width="80"/>
-                <DataGridTextColumn Header="Сумма" Width="70"/>
-                <DataGridTextColumn Header="Дата добавления" Width="110"/>
+                <DataGridTextColumn Header="Препарат" Width="120" Binding="{Binding MedicamentName}"/>
+                <DataGridTextColumn Header="Категория" Width="120" Binding="{Binding CategoryName}"/>
+                <DataGridTextColumn Header="Цена" Width="90" Binding="{Binding Cost}"/>
+                <DataGridTextColumn Header="Количество" Width="80" Binding="{Binding Count}"/>
+                <DataGridTextColumn Header="Сумма" Width="70" Binding="{Binding Price}"/>
+                <DataGridTextColumn Header="Дата добавления" Width="110" Binding="{Binding Date}"/>
                 <DataGridTemplateColumn>
                     <DataGridTemplateColumn.CellTemplate>
                         <DataTemplate>
@@ -26,5 +30,9 @@
                 </DataGridTemplateColumn>
             </DataGrid.Columns>
         </DataGrid>
+        <StackPanel Grid.Row="1" Orientation="Horizontal">
+            <Button Grid.Column="1" Content="Добавить запись" Grid.Row="3" Margin="10" Click="AddMedic_Click"/>
+            <Button Grid.Column="2" Content="Удалить запись" Grid.Row="3" Margin="10" Click="DeleteMedic_Click"/>
+        </StackPanel>
     </Grid>
 </Page>

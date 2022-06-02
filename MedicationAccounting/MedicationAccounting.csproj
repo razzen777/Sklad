@@ -127,6 +127,10 @@
       <Project>{b14bdeb1-bcde-4bba-9b11-d20a3775b29e}</Project>
       <Name>Services</Name>
     </ProjectReference>
+    <ProjectReference Include="..\Storage\Storage.csproj">
+      <Project>{D167D2D7-0D67-45F9-80FC-90A236B18F04}</Project>
+      <Name>Storage</Name>
+    </ProjectReference>
   </ItemGroup>
   <ItemGroup>
     <Resource Include="Image1.png" />

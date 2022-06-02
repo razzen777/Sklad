@@ -20,16 +20,10 @@ namespace MedicationAccounting
     /// </summary>
     public partial class MainWindow : Window
     {
-        AddMedicWindow medicWindow = new AddMedicWindow();
         public MainWindow()
         {
             InitializeComponent();
             MainFrame.Navigate(new MedicListPage());
-        }
-
-        private void AddMedic_Click(object sender, RoutedEventArgs e)
-        {
-            medicWindow.Show();
         }
     }
 }

@@ -1,4 +1,5 @@
 ﻿using Services;
+using Storage;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -20,11 +21,23 @@ namespace MedicationAccounting
     /// </summary>
     public partial class AddMedicWindow : Window
     {
-        public AddMedicWindow()
+        private readonly static MedicationAccountingContext context = new MedicationAccountingContext();
+        private Medicament _currentMedicament=new Medicament();
+        DataGrid DataGrid = new DataGrid();
+        public AddMedicWindow(DataGrid dataGrid)
         {
             InitializeComponent();
+            DataGrid = dataGrid;
         }
-
+        public AddMedicWindow(Medicament medicament=null)
+        {
+            InitializeComponent();
+            if (medicament != null)
+            {
+                _currentMedicament=medicament;
+            }
+            DataContext = _currentMedicament;
+        }   
         private void btnAdd_Click(object sender, RoutedEventArgs e)
         {
             var name = Name.Text.Trim();
@@ -33,6 +46,18 @@ namespace MedicationAccounting
             var price = Price.Text.Trim();
             var category = Category.Text.Trim();
             Medic.AddEntry(name, cost, count, price,category);
+            DataGrid.ItemsSource = Medic.GetMedicamentList();
+        }
+
+        private void btnUpdate_Click(object sender, RoutedEventArgs e)
+        {
+            _currentMedicament.MedicamentName = Name.Text.Trim();
+            _currentMedicament.Price = Price.Text.Trim();
+            _currentMedicament.Count=Count.Text.Trim();
+            _currentMedicament.Cost=Cost.Text.Trim();
+            _currentMedicament.CategoryName=Category.Text.Trim();
+            context.SaveChanges();
+            DataGrid.ItemsSource = Medic.GetMedicamentList();
         }
     }
 }

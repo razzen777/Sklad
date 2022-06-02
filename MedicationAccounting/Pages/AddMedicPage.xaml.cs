@@ -12,6 +12,8 @@ using System.Windows.Media;
 using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
+using Services;
+using Storage;
 
 namespace MedicationAccounting.Pages
 {
@@ -20,14 +22,35 @@ namespace MedicationAccounting.Pages
     /// </summary>
     public partial class MedicListPage : Page
     {
+        private readonly static MedicationAccountingContext context = new MedicationAccountingContext();
+        AddMedicWindow medicWindow;
         public MedicListPage()
         {
             InitializeComponent();
+            MedicDataGrid.ItemsSource = Medic.GetMedicamentList();
+            medicWindow=new AddMedicWindow(MedicDataGrid);
         }
 
         private void btnUpdate_Click(object sender, RoutedEventArgs e)
         {
+            medicWindow = new AddMedicWindow((sender as Button).DataContext as Medicament);
+            medicWindow.Show();
+        }
+        private void AddMedic_Click(object sender, RoutedEventArgs e)
+        {
+            medicWindow.Show();
+        }
 
+        private void DeleteMedic_Click(object sender, RoutedEventArgs e)
+        {
+            var medicaments=MedicDataGrid.SelectedItems.Cast<Medicament>().ToList();
+            foreach (var item in medicaments)
+            {
+                context.Medicaments.Attach(item);
+            }
+            context.Medicaments.RemoveRange(medicaments);
+            context.SaveChanges();
+            MedicDataGrid.ItemsSource=Medic.GetMedicamentList();
         }
     }
 }

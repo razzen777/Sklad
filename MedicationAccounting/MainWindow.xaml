@@ -22,7 +22,5 @@
         <TextBlock Grid.Column="1" Text="Складской учет медикаментов" VerticalAlignment="Center" HorizontalAlignment="Left" FontFamily="Arial Black" FontWeight="Normal" FontSize="36" FontStyle="Normal" Grid.ColumnSpan="2" Margin="71,0,0,0"/>
         <StackPanel Grid.Row="1" HorizontalAlignment="Center" VerticalAlignment="Center" Grid.RowSpan="2"/>
         <Frame Name ="MainFrame" Grid.Row="1" Grid.RowSpan="2" Grid.ColumnSpan="3"/>
-        <Button Grid.Column="1" Content="Добавить запись" Grid.Row="3" Margin="10" Click="AddMedic_Click"/>
-        <Button Grid.Column="2" Content="Удалить запись" Grid.Row="3" Margin="10"/>
     </Grid>
 </Window>

@@ -4,16 +4,16 @@
 winexe
 C#
 .cs
-C:\Users\zhann\Source\Repos\Sklad\MedicationAccounting\obj\Debug\
+C:\Users\zhann\source\repos\Sklad\MedicationAccounting\obj\Debug\
 MedicationAccounting
 none
 false
 DEBUG;TRACE
-C:\Users\zhann\Source\Repos\Sklad\MedicationAccounting\App.xaml
+C:\Users\zhann\source\repos\Sklad\MedicationAccounting\App.xaml
 42084062805
 
 9617342607
-17-1781565026
+181064007291
 AddMedicWindow.xaml;AuthorizationWindow.xaml;MainWindow.xaml;Pages\AddMedicPage.xaml;
 
 False

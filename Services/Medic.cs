@@ -21,9 +21,13 @@ namespace Services
                 Count = count,
                 Date = date,
                 CategoryName = category
-        };
+            };
             context.Medicaments.Add(medicament);
             context.SaveChanges();
+        }
+        public static IEnumerable<Medicament> GetMedicamentList()
+        {
+            return context.Medicaments.ToList();
         }
     }
 }

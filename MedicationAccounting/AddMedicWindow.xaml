@@ -5,7 +5,7 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:MedicationAccounting"
         mc:Ignorable="d"
-        Title="Добавить запись" Height="200" Width="320" ResizeMode="NoResize" WindowStartupLocation="CenterScreen" Topmost="True" WindowStyle="ToolWindow">
+        Title="Добавить запись" Height="250" Width="320" ResizeMode="NoResize" WindowStartupLocation="CenterScreen" Topmost="True" WindowStyle="ToolWindow">
     <Grid>
         <Grid.ColumnDefinitions>
             <ColumnDefinition Width="160"/>
@@ -19,13 +19,14 @@
             <Label Content="Сумма"/>
         </StackPanel>
         <StackPanel Grid.Column="1" Margin="5">
-            <TextBox Margin="0 4" Name="Name"/>
-            <TextBox Margin="0 4" Name="Category"/>
-            <TextBox Margin="0 4" Name="Cost"/>
-            <TextBox Margin="0 4" Name="Count"/>
-            <TextBox Margin="0 4" Name="Price"/>
+            <TextBox Margin="0 4" Name="Name" Text="{Binding MedicamentName}"/>
+            <TextBox Margin="0 4" Name="Category" Text="{Binding CategoryName}"/>
+            <TextBox Margin="0 4" Name="Cost" Text="{Binding Cost}"/>
+            <TextBox Margin="0 4" Name="Count" Text="{Binding Count}"/>
+            <TextBox Margin="0 4" Name="Price" Text="{Binding Price}"/>
             <Button Margin="0 4" Name="btnAdd" Content="Добавить" Click="btnAdd_Click"/>
-            
+            <Button Margin="0 4" Name="btnUpdate" Content="Обновить" Click="btnUpdate_Click"/>
+
         </StackPanel>
     </Grid>
 </Window>
