@@ -39,3 +39,17 @@ C:\Users\zhann\Source\Repos\Sklad\Storage\obj\Debug\Storage.csproj.CoreCompileIn
 C:\Users\zhann\Source\Repos\Sklad\Storage\obj\Debug\Storage.csproj.CopyComplete
 C:\Users\zhann\Source\Repos\Sklad\Storage\obj\Debug\Storage.dll
 C:\Users\zhann\Source\Repos\Sklad\Storage\obj\Debug\Storage.pdb
+C:\Users\zhann\Source\Repos\Skladd\Storage\bin\Debug\Storage.dll.config
+C:\Users\zhann\Source\Repos\Skladd\Storage\bin\Debug\Storage.dll
+C:\Users\zhann\Source\Repos\Skladd\Storage\bin\Debug\Storage.pdb
+C:\Users\zhann\Source\Repos\Skladd\Storage\bin\Debug\EntityFramework.dll
+C:\Users\zhann\Source\Repos\Skladd\Storage\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\zhann\Source\Repos\Skladd\Storage\bin\Debug\EntityFramework.xml
+C:\Users\zhann\Source\Repos\Skladd\Storage\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\zhann\Source\Repos\Skladd\Storage\bin\Debug\ru\EntityFramework.resources.dll
+C:\Users\zhann\Source\Repos\Skladd\Storage\bin\Debug\ru\EntityFramework.SqlServer.resources.dll
+C:\Users\zhann\Source\Repos\Skladd\Storage\obj\Debug\Storage.csproj.AssemblyReference.cache
+C:\Users\zhann\Source\Repos\Skladd\Storage\obj\Debug\Storage.csproj.CoreCompileInputs.cache
+C:\Users\zhann\Source\Repos\Skladd\Storage\obj\Debug\Storage.csproj.CopyComplete
+C:\Users\zhann\Source\Repos\Skladd\Storage\obj\Debug\Storage.dll
+C:\Users\zhann\Source\Repos\Skladd\Storage\obj\Debug\Storage.pdb
